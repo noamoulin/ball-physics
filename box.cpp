@@ -71,7 +71,7 @@ public :
                 p1.position.y = p1.radius;
             }*/
 
-            for(auto &p2 : particles) { // A OPTIMISER POUR LIMITER LES INSTRUCTIONS
+            for(auto &p2 : particles) { //optimiser
 
                 if(p1 != p2) {
 
